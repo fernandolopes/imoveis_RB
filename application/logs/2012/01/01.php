@@ -161,3 +161,10 @@
 #8 C:\xampp\htdocs\imoveis\system\classes\kohana\request.php(1138): Kohana_Request_Client->execute(Object(Request))
 #9 C:\xampp\htdocs\imoveis\index.php(109): Kohana_Request->execute()
 #10 {main}
+2012-01-01 21:15:30 --- ERROR: HTTP_Exception_404 [ 404 ]: The requested URL cliente/index was not found on this server. ~ SYSPATH\classes\kohana\request\client\internal.php [ 87 ]
+2012-01-01 21:15:30 --- STRACE: HTTP_Exception_404 [ 404 ]: The requested URL cliente/index was not found on this server. ~ SYSPATH\classes\kohana\request\client\internal.php [ 87 ]
+--
+#0 C:\xampp\htdocs\imoveis\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#1 C:\xampp\htdocs\imoveis\system\classes\kohana\request.php(1138): Kohana_Request_Client->execute(Object(Request))
+#2 C:\xampp\htdocs\imoveis\index.php(109): Kohana_Request->execute()
+#3 {main}

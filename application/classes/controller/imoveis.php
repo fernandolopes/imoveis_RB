@@ -14,7 +14,6 @@ class Controller_Imoveis extends Controller {
 
         public function action_index(){
             
-            //$view = View::factory('layout/template');
             $this->view->title = 'Imoveis';
             
             $imoveis = ORM::factory('imovel')->find_all();
@@ -49,7 +48,7 @@ class Controller_Imoveis extends Controller {
 
                     $validation = Validation::factory($post);
                 
-                    $imovel->values($post, array('nome','logradouro','numero','bairro','cidade','uf','cep'));
+                    $imovel->values($post, array('nome','logradouro','numero','complemento','bairro','cidade','uf','cep'));
                     
                     try {
                         
@@ -94,7 +93,7 @@ class Controller_Imoveis extends Controller {
                 $validation = Validation::factory($post);
                 
                     $imovel = ORM::factory("imovel")
-                            ->values($post, array('nome','logradouro','numero','bairro','cidade','uf','cep'));
+                            ->values($post, array('nome','logradouro','numero','complemento','bairro','cidade','uf','cep'));
                     
                     try {
                         $imovel->save($validation);
