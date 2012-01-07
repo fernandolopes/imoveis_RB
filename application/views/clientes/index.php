@@ -5,7 +5,7 @@
         <td style="font-weight: bold; width: 100px;">Nome:</td>
         <td style="font-weight: bold; width: 150px;">Sobrenome:</td>
         <td style="font-weight: bold; width: 100px;">Sexo:</td>
-        <td style="font-weight: bold; width: 15 0px;">Data de Nascimento:</td>
+        <td style="font-weight: bold; width: 150px;">Data de Nascimento:</td>
         <td style="font-weight: bold; width: 120px;">CPF:</td>
         <td style="font-weight: bold; width: 120px;">RG:</td>
         <td style="font-weight: bold; width: 100px;">Ações</td>
